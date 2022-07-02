@@ -1,9 +1,7 @@
-from pickle import PicklingError
-from pydoc import describe
 import discord
 import config
 from discord.ext import commands
-from discord_slash import SlashCommand, SlashContext
+from discord_slash import SlashCommand
 from mcstatus import JavaServer as MinecraftServer
 from config import *
 
